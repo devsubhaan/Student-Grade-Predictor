@@ -1,4 +1,4 @@
-# Student GPA Prediction
+# Student GPA Prediction (WIP)
 
 ## 📌 About the Project
 
