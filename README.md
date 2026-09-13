@@ -14,7 +14,7 @@ Each row represents a student, with different features describing their academic
 
 The target variable is:
 
-* **GPA** — the GPA I am trying to predict
+* **GPA** - the GPA I am trying to predict
 
 ## 🤖 Model
 
@@ -22,8 +22,8 @@ I used **XGBoost Regression** to predict GPA.
 
 The dataset is split into:
 
-* **80% training data** — used to train the model
-* **20% testing data** — used to evaluate the model
+* **80% training data** - used to train the model
+* **20% testing data** - used to evaluate the model
 
 The split uses `random_state=42` so the results are reproducible.
 
@@ -58,26 +58,3 @@ pip install pandas numpy matplotlib scikit-learn xgboost
 
 4. Run the Python script.
 
-## 📈 Future Improvements
-
-Some things I could try to improve the project:
-
-* Try different machine learning models
-* Tune the XGBoost hyperparameters
-* Add more useful features
-* Visualize the predictions
-* Compare multiple regression models
-* Investigate which features have the biggest impact on GPA
-
-## 🧠 What I Learned
-
-Through this project I learned about:
-
-* Loading and exploring tabular datasets
-* Separating features (`X`) from the target (`y`)
-* Splitting data into training and testing sets
-* Training a regression model
-* Making predictions
-* Evaluating a model using MAE
-* Avoiding data leakage
-* Using visualizations to understand machine learning results
