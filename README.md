@@ -14,7 +14,7 @@ Each row represents a student, with different features describing their academic
 
 The target variable is:
 
-* **GPA** - the GPA I am trying to predict
+* **GPA** - the GPA to predict
 
 ## 🤖 Model
 
@@ -25,7 +25,7 @@ The dataset is split into:
 * **80% training data** - used to train the model
 * **20% testing data** - used to evaluate the model
 
-The split uses `random_state=42` so the results are reproducible.
+The split uses `random_state=1` so the results are reproducible.
 
 ## 📏 Evaluation
 
@@ -37,7 +37,7 @@ MAE measures the average difference between the predicted GPA and the actual GPA
 
 A lower MAE means the model's predictions are closer to the actual GPAs.
 
-## 🛠️ Technologies Used
+## 🛠️ Libraries Used
 
 * Python
 * Pandas
@@ -45,16 +45,8 @@ A lower MAE means the model's predictions are closer to the actual GPAs.
 * Matplotlib
 * Scikit-learn
 * XGBoost
-
-## 🚀 How to Run
-
-1. Clone or download this repository.
-2. Make sure `performance.csv` is in the project folder.
-3. Install the required libraries:
-
-```bash
-pip install pandas numpy matplotlib scikit-learn xgboost
-```
-
-4. Run the Python script.
+* Catboost
+* Ridge
+* KFold
+  
 
