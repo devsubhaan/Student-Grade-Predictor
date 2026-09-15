@@ -1,5 +1,7 @@
-catboost_info/catboost_training.json
 main.py
-catboost_info/time_left.tsv
-catboost_info/learn/events.out.tfevents
-catboost_info/learn_error.tsv
+
+catboost_info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

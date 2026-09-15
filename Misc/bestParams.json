@@ -1,0 +1,24 @@
+{
+    "ridge": {
+        "alpha": 0.199891554436381,
+        "solver": "auto"
+    },
+    "xgboost": {
+        "n_estimators": 211,
+        "max_depth": 2,
+        "learning_rate": 0.10705467493144176,
+        "subsample": 0.5655887290745838,
+        "colsample_bytree": 0.5427825401633142,
+        "reg_alpha": 1.0752566530938841e-07,
+        "reg_lambda": 0.10549698079604027,
+        "min_child_weight": 10
+    },
+    "catboost": {
+        "iterations": 95,
+        "depth": 3,
+        "learning_rate": 0.12520700964798567,
+        "l2_leaf_reg": 0.21564551752856262,
+        "subsample": 0.9462394984686084,
+        "random_strength": 0.29099944236579267
+    }
+}
