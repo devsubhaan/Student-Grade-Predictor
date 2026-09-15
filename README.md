@@ -37,7 +37,7 @@ MAE measures the average difference between the predicted GPA and the actual GPA
 
 A lower MAE means the model's predictions are closer to the actual GPAs.
 
-## 🛠️ Libraries Used
+## 🛠️ Libraries
 
 * Python
 * Pandas
@@ -48,5 +48,7 @@ A lower MAE means the model's predictions are closer to the actual GPAs.
 * Catboost
 * Ridge
 * KFold
+* Seaborn (Visualisation)
+* Optuna (Parameter tuning)
   
 
