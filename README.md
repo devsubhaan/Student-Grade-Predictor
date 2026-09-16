@@ -29,7 +29,7 @@ Features are added which can help the model predict a lot more easier.
 ---
 
 The model can be run by simply running `predict.py`, it can be retuned by running `modelTune.py` where the settings can be changed.
-Student data can be entered into `predict.py` to produce a result of ~95-96% accuracy of their GPA.
+Student data can be entered into `predict.py` to produce a result of ~95-96% R^2 of their GPA and an MAE of around 0.15 points.
 
 ---
 
