@@ -26,10 +26,45 @@ def featureEngineering(data):
 model = joblib.load("Misc/bestGPAModel.joblib")
 
 # Input student values to predict with
+
+""" 
+Ethnicity
+0: Caucasian
+1: African American
+2: Asian
+3: Other
+
+Gender
+0: Male
+1: Female
+
+Parental Education
+0: None
+1: High School
+2: Some College
+3: Bachelor's
+4: Higher
+
+Parental Support
+0: None
+1: Low
+2: Moderate
+3: High
+4: Very High
+
+StudyTimeWeekly
+1-20: Hours a week
+
+Others
+1: Yes
+0: No
+
+"""
+
 studentData= pd.DataFrame(
     [
         {
-            "Age": 17,
+            "Age": 18,
             "Gender": 1,
             "Ethnicity": 0,
             "ParentalEducation": 2,
