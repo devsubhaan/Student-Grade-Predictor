@@ -117,7 +117,7 @@ def testRegressor(model, tune=False):
 # Main
 if __name__ == "__main__":
     # Visualise
-    """
+    
     plt.figure(figsize=(6, 4))
     sns.histplot(y, kde=True, color="teal")
     plt.title("GPA Distribution")
@@ -130,7 +130,6 @@ if __name__ == "__main__":
     sns.heatmap(num_df.corr(), annot=True, cmap="coolwarm", fmt=".2f")
     plt.title("Correlation Matrix")
     plt.show()
-    """
 
     # Load params
     bestParams = loadParams()
@@ -149,7 +148,6 @@ if __name__ == "__main__":
     print("\n")
 
     # Subplots
-    """
     fig, axes = plt.subplots(3, 1, figsize=(8, 10), sharex=True)
 
     axes[0].plot(scoresXGB, marker="o", color="blue", label="XGBRegressor")
@@ -170,7 +168,6 @@ if __name__ == "__main__":
 
     plt.tight_layout()
     plt.show()
-    """
 
     models = {
         "XGBoost": {"mae": maeXGB, "pred": y_predXGB, "pipeline": pipeXGB},
@@ -191,7 +188,7 @@ if __name__ == "__main__":
     # Results
     print(f"Best Model: {bestModel}")
     print(f"Mean Absolute Error: {mae:.4f} GPA points")
-    print(f"Accuracy: {r2 * 100:.2f}%")
+    print(f"R^2: {r2 * 100:.2f}%")
     print("\n")
 
     filename = "Misc/bestGPAModel.joblib"
